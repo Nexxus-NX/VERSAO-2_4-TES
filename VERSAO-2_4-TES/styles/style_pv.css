@@ -1,0 +1,38 @@
+.divP1 {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 9%;
+  height: 10%;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 0;
+  background-color: #cccccc;
+}
+
+.lab-pv {
+  position: relative;
+  display: inline-block;
+  top: 35%;
+  left: 35%;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.num {
+  width: 35px;
+  top: 35%;
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  font-size: 16px;
+}
+
+.canv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

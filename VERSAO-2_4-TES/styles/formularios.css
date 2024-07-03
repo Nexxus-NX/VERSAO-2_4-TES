@@ -1,0 +1,91 @@
+.formulario {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: #f50404;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.password-box {
+  border: 1px solid #0d210f;
+  background-color: #1b411d;
+  color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 6px 20px 3px 20px;
+  max-width: 500px;
+  width: 100%;
+  text-align: left;
+}
+
+.password-box h2 {
+  margin-top: 0;
+  font-size: 1em;
+}
+
+.password-box input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #515251;
+  background-color: #acadac;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.password-box .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.password-box .btn:hover {
+  background-color: #45a049;
+}
+
+.password-box .btn:active {
+  background-color: aqua;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 50px;
+}
+
+.txt {
+  position: relative;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.btn {
+  width: 100%;
+  margin: 0px;
+  padding-top: 8px;
+  padding-bottom: 25px;
+  background-color: #3b3b88;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #5454b2;
+}
